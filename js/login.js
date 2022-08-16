@@ -10,5 +10,8 @@ document.getElementById("login-btn").addEventListener('click', function () {
     }
     else {
         alert("Typed wrong Email or Password");
+        document.getElementById("user-email").value = "";
+        document.getElementById("user-password").value = "";
+
     }
 });
